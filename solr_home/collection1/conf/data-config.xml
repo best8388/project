@@ -1,0 +1,26 @@
+<dataConfig>  
+    <dataSource type="BinFileDataSource" />
+        <document>
+            <entity name="files" dataSource="null" rootEntity="false"
+            processor="FileListEntityProcessor"
+            baseDir="C:/test" fileName=".*.(doc)|(pdf)|(docx)"
+            onError="skip"
+            recursive="true">
+                <field column="fileAbsolutePath" name="id" />
+                <field column="fileSize" name="size" />
+                <field column="fileLastModified" name="lastModified" />
+                 
+                <entity
+                    name="documentImport"
+                    processor="TikaEntityProcessor"
+                    url="${files.fileAbsolutePath}"
+                    format="text">
+                    <field column="file" name="fileName"/>
+                    <field column="Author" name="author" meta="true"/>
+                    <field column="title" name="title" meta="true"/>
+                    <field column="text" name="text"/>
+ 
+                </entity>
+        </entity>
+        </document> 
+</dataConfig>  

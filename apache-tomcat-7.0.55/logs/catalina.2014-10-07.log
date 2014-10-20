@@ -1,0 +1,450 @@
+10월 07, 2014 12:45:42 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: Loaded APR based Apache Tomcat Native library 1.1.31 using APR version 1.4.8.
+10월 07, 2014 12:45:42 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10월 07, 2014 12:45:44 오전 org.apache.catalina.core.AprLifecycleListener initializeSSL
+정보: OpenSSL successfully initialized (OpenSSL 1.0.1h 5 Jun 2014)
+10월 07, 2014 12:45:45 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 12:45:45 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 12:45:45 오전 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 3934 ms
+10월 07, 2014 12:45:45 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+10월 07, 2014 12:45:45 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.55
+10월 07, 2014 12:45:45 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+정보: Deploying configuration descriptor C:\project\apache-tomcat-7.0.55\conf\Catalina\localhost\solr.xml
+10월 07, 2014 12:45:45 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+경고: A docBase C:\project\apache-tomcat-7.0.55\webapps\solr.war inside the host appBase has been specified, and will be ignored
+10월 07, 2014 12:45:45 오전 org.apache.catalina.startup.SetContextPropertiesRule begin
+경고: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+10월 07, 2014 12:46:00 오전 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+정보: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [125] milliseconds.
+10월 07, 2014 12:46:31 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+정보: Deployment of configuration descriptor C:\project\apache-tomcat-7.0.55\conf\Catalina\localhost\solr.xml has finished in 46,734 ms
+10월 07, 2014 12:46:32 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\docs
+10월 07, 2014 12:46:32 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\docs has finished in 304 ms
+10월 07, 2014 12:46:32 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\examples
+10월 07, 2014 12:46:34 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\examples has finished in 2,349 ms
+10월 07, 2014 12:46:34 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\host-manager
+10월 07, 2014 12:46:35 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\host-manager has finished in 320 ms
+10월 07, 2014 12:46:35 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\manager
+10월 07, 2014 12:46:35 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\manager has finished in 314 ms
+10월 07, 2014 12:46:35 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\ROOT
+10월 07, 2014 12:46:35 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\ROOT has finished in 200 ms
+10월 07, 2014 12:46:35 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 12:46:35 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 12:46:35 오전 org.apache.catalina.startup.Catalina start
+정보: Server startup in 50502 ms
+10월 07, 2014 1:26:42 오전 org.apache.catalina.core.StandardServer await
+정보: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10월 07, 2014 1:26:42 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:26:42 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:26:42 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+10월 07, 2014 1:26:42 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@3687196c]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 1:26:42 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@3687196c]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 1:26:42 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@3687196c]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 1:26:42 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:26:42 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:26:42 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:26:42 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:26:46 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: Loaded APR based Apache Tomcat Native library 1.1.31 using APR version 1.4.8.
+10월 07, 2014 1:26:46 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10월 07, 2014 1:26:47 오전 org.apache.catalina.core.AprLifecycleListener initializeSSL
+정보: OpenSSL successfully initialized (OpenSSL 1.0.1h 5 Jun 2014)
+10월 07, 2014 1:26:48 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:26:48 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:26:48 오전 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 3333 ms
+10월 07, 2014 1:26:48 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+10월 07, 2014 1:26:48 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.55
+10월 07, 2014 1:26:48 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+정보: Deploying configuration descriptor C:\project\apache-tomcat-7.0.55\conf\Catalina\localhost\solr.xml
+10월 07, 2014 1:26:48 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+경고: A docBase C:\project\apache-tomcat-7.0.55\webapps\solr.war inside the host appBase has been specified, and will be ignored
+10월 07, 2014 1:26:48 오전 org.apache.catalina.startup.SetContextPropertiesRule begin
+경고: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+10월 07, 2014 1:27:19 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+정보: Deployment of configuration descriptor C:\project\apache-tomcat-7.0.55\conf\Catalina\localhost\solr.xml has finished in 31,393 ms
+10월 07, 2014 1:27:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\docs
+10월 07, 2014 1:27:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\docs has finished in 213 ms
+10월 07, 2014 1:27:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\examples
+10월 07, 2014 1:27:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\examples has finished in 1,515 ms
+10월 07, 2014 1:27:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\host-manager
+10월 07, 2014 1:27:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\host-manager has finished in 309 ms
+10월 07, 2014 1:27:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\manager
+10월 07, 2014 1:27:22 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\manager has finished in 239 ms
+10월 07, 2014 1:27:22 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\ROOT
+10월 07, 2014 1:27:22 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\ROOT has finished in 184 ms
+10월 07, 2014 1:27:22 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:27:22 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:27:22 오전 org.apache.catalina.startup.Catalina start
+정보: Server startup in 34110 ms
+10월 07, 2014 1:27:51 오전 org.apache.catalina.core.StandardServer await
+정보: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10월 07, 2014 1:27:51 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:27:51 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:27:51 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+10월 07, 2014 1:27:51 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7fc005db]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 1:27:51 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7fc005db]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 1:27:51 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7fc005db]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 1:27:51 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7fc005db]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 1:27:51 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7fc005db]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 1:27:51 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7fc005db]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 1:27:51 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:27:52 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:27:52 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:27:52 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:30:16 오전 org.apache.catalina.startup.Catalina stopServer
+심각: Could not contact localhost:8005. Tomcat may not be running.
+10월 07, 2014 1:30:16 오전 org.apache.catalina.startup.Catalina stopServer
+심각: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:370)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:457)
+
+10월 07, 2014 1:30:20 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: Loaded APR based Apache Tomcat Native library 1.1.31 using APR version 1.4.8.
+10월 07, 2014 1:30:20 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10월 07, 2014 1:30:22 오전 org.apache.catalina.core.AprLifecycleListener initializeSSL
+정보: OpenSSL successfully initialized (OpenSSL 1.0.1h 5 Jun 2014)
+10월 07, 2014 1:30:22 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:30:22 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:30:22 오전 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 3846 ms
+10월 07, 2014 1:30:22 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+10월 07, 2014 1:30:22 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.55
+10월 07, 2014 1:30:22 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+정보: Deploying configuration descriptor C:\project\apache-tomcat-7.0.55\conf\Catalina\localhost\solr.xml
+10월 07, 2014 1:30:22 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+경고: A docBase C:\project\apache-tomcat-7.0.55\webapps\solr.war inside the host appBase has been specified, and will be ignored
+10월 07, 2014 1:30:22 오전 org.apache.catalina.startup.SetContextPropertiesRule begin
+경고: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+10월 07, 2014 1:30:46 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+정보: Deployment of configuration descriptor C:\project\apache-tomcat-7.0.55\conf\Catalina\localhost\solr.xml has finished in 23,485 ms
+10월 07, 2014 1:30:46 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\docs
+10월 07, 2014 1:30:46 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\docs has finished in 260 ms
+10월 07, 2014 1:30:46 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\examples
+10월 07, 2014 1:30:47 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\examples has finished in 1,404 ms
+10월 07, 2014 1:30:47 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\host-manager
+10월 07, 2014 1:30:48 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\host-manager has finished in 249 ms
+10월 07, 2014 1:30:48 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\manager
+10월 07, 2014 1:30:48 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\manager has finished in 243 ms
+10월 07, 2014 1:30:48 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\ROOT
+10월 07, 2014 1:30:48 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\ROOT has finished in 171 ms
+10월 07, 2014 1:30:48 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:30:48 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:30:48 오전 org.apache.catalina.startup.Catalina start
+정보: Server startup in 26072 ms
+10월 07, 2014 1:41:46 오전 org.apache.catalina.core.StandardServer await
+정보: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10월 07, 2014 1:41:46 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:41:46 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:41:46 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+10월 07, 2014 1:41:46 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:41:46 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:41:46 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:41:46 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:41:50 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: Loaded APR based Apache Tomcat Native library 1.1.31 using APR version 1.4.8.
+10월 07, 2014 1:41:50 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10월 07, 2014 1:41:52 오전 org.apache.catalina.core.AprLifecycleListener initializeSSL
+정보: OpenSSL successfully initialized (OpenSSL 1.0.1h 5 Jun 2014)
+10월 07, 2014 1:41:52 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:41:52 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:41:52 오전 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 3920 ms
+10월 07, 2014 1:41:52 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+10월 07, 2014 1:41:52 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.55
+10월 07, 2014 1:41:52 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+정보: Deploying configuration descriptor C:\project\apache-tomcat-7.0.55\conf\Catalina\localhost\solr.xml
+10월 07, 2014 1:41:52 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+경고: A docBase C:\project\apache-tomcat-7.0.55\webapps\solr.war inside the host appBase has been specified, and will be ignored
+10월 07, 2014 1:41:52 오전 org.apache.catalina.startup.SetContextPropertiesRule begin
+경고: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+10월 07, 2014 1:42:17 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+정보: Deployment of configuration descriptor C:\project\apache-tomcat-7.0.55\conf\Catalina\localhost\solr.xml has finished in 24,782 ms
+10월 07, 2014 1:42:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\docs
+10월 07, 2014 1:42:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\docs has finished in 171 ms
+10월 07, 2014 1:42:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\examples
+10월 07, 2014 1:42:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\examples has finished in 1,366 ms
+10월 07, 2014 1:42:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\host-manager
+10월 07, 2014 1:42:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\host-manager has finished in 225 ms
+10월 07, 2014 1:42:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\manager
+10월 07, 2014 1:42:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\manager has finished in 250 ms
+10월 07, 2014 1:42:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\ROOT
+10월 07, 2014 1:42:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\ROOT has finished in 169 ms
+10월 07, 2014 1:42:19 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:42:19 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:42:19 오전 org.apache.catalina.startup.Catalina start
+정보: Server startup in 27207 ms
+10월 07, 2014 1:46:21 오전 org.apache.catalina.core.StandardServer await
+정보: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10월 07, 2014 1:46:21 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:46:21 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:46:21 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+10월 07, 2014 1:46:21 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:46:21 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:46:21 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:46:21 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:46:34 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: Loaded APR based Apache Tomcat Native library 1.1.31 using APR version 1.4.8.
+10월 07, 2014 1:46:34 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10월 07, 2014 1:46:36 오전 org.apache.catalina.core.AprLifecycleListener initializeSSL
+정보: OpenSSL successfully initialized (OpenSSL 1.0.1h 5 Jun 2014)
+10월 07, 2014 1:46:37 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:46:37 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:46:37 오전 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 4891 ms
+10월 07, 2014 1:46:37 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+10월 07, 2014 1:46:37 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.55
+10월 07, 2014 1:46:37 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+정보: Deploying configuration descriptor C:\project\apache-tomcat-7.0.55\conf\Catalina\localhost\solr.xml
+10월 07, 2014 1:46:37 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+경고: A docBase C:\project\apache-tomcat-7.0.55\webapps\solr.war inside the host appBase has been specified, and will be ignored
+10월 07, 2014 1:46:37 오전 org.apache.catalina.startup.SetContextPropertiesRule begin
+경고: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+10월 07, 2014 1:47:15 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+정보: Deployment of configuration descriptor C:\project\apache-tomcat-7.0.55\conf\Catalina\localhost\solr.xml has finished in 38,386 ms
+10월 07, 2014 1:47:15 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\docs
+10월 07, 2014 1:47:16 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\docs has finished in 185 ms
+10월 07, 2014 1:47:16 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\examples
+10월 07, 2014 1:47:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\examples has finished in 1,386 ms
+10월 07, 2014 1:47:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\host-manager
+10월 07, 2014 1:47:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\host-manager has finished in 257 ms
+10월 07, 2014 1:47:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\manager
+10월 07, 2014 1:47:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\manager has finished in 212 ms
+10월 07, 2014 1:47:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\ROOT
+10월 07, 2014 1:47:18 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\ROOT has finished in 164 ms
+10월 07, 2014 1:47:18 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:47:18 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:47:18 오전 org.apache.catalina.startup.Catalina start
+정보: Server startup in 40867 ms
+10월 07, 2014 1:52:35 오전 org.apache.catalina.core.StandardServer await
+정보: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10월 07, 2014 1:52:35 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:52:35 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:52:35 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+10월 07, 2014 1:52:36 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@dd3695e]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 1:52:36 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@dd3695e]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 1:52:36 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:52:36 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:52:36 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:52:36 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:52:39 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: Loaded APR based Apache Tomcat Native library 1.1.31 using APR version 1.4.8.
+10월 07, 2014 1:52:39 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10월 07, 2014 1:52:40 오전 org.apache.catalina.core.AprLifecycleListener initializeSSL
+정보: OpenSSL successfully initialized (OpenSSL 1.0.1h 5 Jun 2014)
+10월 07, 2014 1:52:41 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:52:41 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:52:41 오전 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 3540 ms
+10월 07, 2014 1:52:41 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+10월 07, 2014 1:52:41 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.55
+10월 07, 2014 1:52:41 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+정보: Deploying configuration descriptor C:\project\apache-tomcat-7.0.55\conf\Catalina\localhost\solr.xml
+10월 07, 2014 1:52:41 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+경고: A docBase C:\project\apache-tomcat-7.0.55\webapps\solr.war inside the host appBase has been specified, and will be ignored
+10월 07, 2014 1:52:41 오전 org.apache.catalina.startup.SetContextPropertiesRule begin
+경고: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+10월 07, 2014 1:53:18 오전 org.apache.catalina.startup.HostConfig deployDescriptor
+정보: Deployment of configuration descriptor C:\project\apache-tomcat-7.0.55\conf\Catalina\localhost\solr.xml has finished in 36,898 ms
+10월 07, 2014 1:53:18 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\docs
+10월 07, 2014 1:53:18 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\docs has finished in 185 ms
+10월 07, 2014 1:53:18 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\examples
+10월 07, 2014 1:53:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\examples has finished in 1,315 ms
+10월 07, 2014 1:53:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\host-manager
+10월 07, 2014 1:53:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\host-manager has finished in 348 ms
+10월 07, 2014 1:53:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\manager
+10월 07, 2014 1:53:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\manager has finished in 302 ms
+10월 07, 2014 1:53:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\project\apache-tomcat-7.0.55\webapps\ROOT
+10월 07, 2014 1:53:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\project\apache-tomcat-7.0.55\webapps\ROOT has finished in 186 ms
+10월 07, 2014 1:53:20 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 1:53:21 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 1:53:21 오전 org.apache.catalina.startup.Catalina start
+정보: Server startup in 39493 ms
+10월 07, 2014 2:01:25 오전 org.apache.catalina.core.StandardServer await
+정보: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10월 07, 2014 2:01:25 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 2:01:25 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 2:01:25 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+10월 07, 2014 2:01:25 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@6c433cb1]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 2:01:26 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@6c433cb1]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 2:01:26 오전 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+심각: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@6c433cb1]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10월 07, 2014 2:01:26 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 2:01:26 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["ajp-apr-8009"]
+10월 07, 2014 2:01:26 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["http-apr-8080"]
+10월 07, 2014 2:01:26 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["ajp-apr-8009"]
