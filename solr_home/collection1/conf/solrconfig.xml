@@ -75,8 +75,8 @@
   <lib dir="C:/project/solr-4.5.1/contrib/extraction/lib" regex=".*\.jar" />
   <lib dir="C:/project/solr-4.5.1/contrib/velocity/lib" regex=".*\.jar" />
   <lib dir="C:/project/solr_home/extract" regex=".*\.jar" />
-  <lib dir="../../extract" regex=".*\.jar" />
-  <lib dir="../../../contrib/extraction/lib" regex=".*\.jar" />
+<!--  <lib dir="../../extract" regex=".*\.jar" />-->
+<!--  <lib dir="../../../contrib/extraction/lib" regex=".*\.jar" />-->
   <lib dir="../../../dist/" regex="solr-cell-\d.*\.jar" />
 
   <lib dir="../../../contrib/clustering/lib/" regex=".*\.jar" />
@@ -85,7 +85,7 @@
   <lib dir="../../../contrib/langid/lib/" regex=".*\.jar" />
   <lib dir="../../../dist/" regex="solr-langid-\d.*\.jar" />
 
-  <lib dir="../../../contrib/velocity/lib" regex=".*\.jar" />
+<!--  <lib dir="../../../contrib/velocity/lib" regex=".*\.jar" />-->
   <lib dir="../../../dist/" regex="solr-velocity-\d.*\.jar" />
 
   <!-- an exact 'path' can be used instead of a 'dir' to specify a 
@@ -1135,8 +1135,9 @@
   <requestHandler name="/admin/" 
                   class="solr.admin.AdminHandlers" />
   <!-- This single handler is equivalent to the following... -->
-  <!--
+
      <requestHandler name="/admin/luke"       class="solr.admin.LukeRequestHandler" />
+  <!--
      <requestHandler name="/admin/system"     class="solr.admin.SystemInfoHandler" />
      <requestHandler name="/admin/plugins"    class="solr.admin.PluginInfoHandler" />
      <requestHandler name="/admin/threads"    class="solr.admin.ThreadDumpHandler" />
@@ -1409,9 +1410,9 @@
        In reality you will likely want to add the component to your 
        already specified request handlers. 
     -->
-  <requestHandler name="/tvrh" class="solr.SearchHandler" startup="lazy">
+  <requestHandler name="/tvrh" class="solr.SearchHandler">
     <lst name="defaults">
-      <str name="df">text</str>
+      <!--<str name="df">text</str>-->
       <bool name="tv">true</bool>
     </lst>
     <arr name="last-components">
